@@ -19,7 +19,6 @@ getwd()
 gs4_deauth()
 
 #### Read google sheets data into R
-#(1) share with XXXXXXXXXX@WWWWWWWWWWWW.iam.gserviceaccount.com
 df <- read_sheet('URL', sheet = "Reporte")
 
 # CLEANING DATA ------------------------------------------
